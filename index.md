@@ -23,6 +23,6 @@ A bullet list:
 - algorithms
 - iterators
 
-You can add an impage that has been uploaded to the repository in a /docs/assets/images folder.
+You can add an image that has been uploaded to the repository in a /docs/assets/images folder.
 
 <img src="https://raw.githubusercontent.com/DanKos22/digital-rain-cpp/main/docs/assets/images/Project.png" width="400" height="300">
