@@ -6,6 +6,7 @@ categories: demo
 ---
 
 This is my first paragraph...
+Develop a modern C++ console application to execute an interpretation of digital rain.
 
 ## This is a Heading
 
