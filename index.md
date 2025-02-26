@@ -5,8 +5,9 @@ tags: cpp coding project
 categories: demo
 ---
 
-This is my first paragraph...
-Develop a modern C++ console application to execute an interpretation of digital rain.
+This project ia a modern C++ console application that simulates the digital rain effect. 
+The program generates a visually dynamic stream of falling characters. It utilizes windows console API functions for cursor manipulations and text coloring.
+The in the project is structured using Object-Oriented Programming.
 
 ## This is a Heading
 
