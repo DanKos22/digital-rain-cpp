@@ -1,1 +1,1 @@
-# digital-rain-cpp
+# Digital-Rain-cpp - A C++ Console Application
