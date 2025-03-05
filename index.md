@@ -7,7 +7,7 @@ categories: demo
 
 This project ia a modern C++ console application that simulates the digital rain effect. 
 The program generates a visually dynamic stream of falling characters. It utilizes windows console API functions for cursor manipulations and text coloring.
-The in the project is structured using Object-Oriented Programming.
+The code in the project is structured using Object-Oriented Programming.
 
 ## This is a Heading
 
