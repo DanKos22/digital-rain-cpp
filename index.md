@@ -4,7 +4,7 @@ title: A Project in Modern C++
 tags: cpp coding project
 categories: demo
 ---
-##Introduction
+## Introduction
 
 This project ia a modern C++ console application that simulates the digital rain effect similar to one that is seen in the Matrix movies. 
 The program generates a visually dynamic stream of falling characters. It utilizes windows console API functions for cursor manipulations and text coloring.
