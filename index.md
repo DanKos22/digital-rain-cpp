@@ -12,7 +12,7 @@ The code in the project is structured using Object-Oriented Programming.
 
 ## Design & Test
 
-This is a paragraph. Add an empty line to start a new paragraph.
+The program is structured using classes and objects. I made a class called DigitalRain.
 
 Font can be *Italic* or **Bold**.
 
