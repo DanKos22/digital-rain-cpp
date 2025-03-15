@@ -39,7 +39,7 @@ The DigitalRain program simulates a digital rain effect, where characters fall f
 
   ![image](https://github.com/user-attachments/assets/33eb4ad1-59c2-4dbb-911e-b8ed6137303c)
 
-- To move the characters down, the vertical positions of the characters are updated to make them fall down on the screen. All the characters fall down simultaneously.  When the characters reach the bottom, the screen is cleared and they are reset to the top:
+- To move the characters down, the vertical positions of the characters are updated to make them fall down on the screen. All the characters fall down simultaneously.  When the characters reach the bottom, the screen is cleared and they are reset to the top. This logic creates the looping digital rain effect where characters continually fall from top to bottom:
 
   ![image](https://github.com/user-attachments/assets/629614a9-ecb5-4b70-ab26-2d59826e5bda)
  
