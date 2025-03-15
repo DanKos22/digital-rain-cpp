@@ -23,6 +23,12 @@ The project is split between five files, each with a specific responsibility. Th
 
 ## Algorithm
 
+The DigitalRain program simulates a digital rain effect, where characters fall from the top of the screen to the bottom. 
+- In this step, the program initializes the necessary data structures for the falling characters.
+  ![image](https://github.com/user-attachments/assets/61b7ee0c-e824-4153-9a4b-567600e62a25)
+
+
+
 
 ## Problem-Solving
 
