@@ -12,7 +12,8 @@ The code in the project is structured using Object-Oriented Programming.
 
 ## Design & Test
 
-The program is structured using classes and objects. I made a class called DigitalRain.
+The program is structured using classes and objects. I made a class called DigitalRain and the project is built around this class. This class contains the functions responsible for handling the movement of the characters (falling effect), controlling cursor positions, and changing text colors in the console.
+The program uses vectors to store data such as the current positions (xPositions and yPositions) of characters and also for the number of characters.
 
 Font can be *Italic* or **Bold**.
 
