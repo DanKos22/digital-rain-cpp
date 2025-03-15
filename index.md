@@ -28,6 +28,7 @@ The DigitalRain program simulates a digital rain effect, where characters fall f
   ![image](https://github.com/user-attachments/assets/61b7ee0c-e824-4153-9a4b-567600e62a25)
 
 - To move the cursor to the correct position, the program uses the GotoXY() function, which uses Windows API functions to move the cursor to the specified coordinates.
+  
   ![image](https://github.com/user-attachments/assets/bc583c1b-4458-4940-8fdb-ecd21762f4f8)
 
   
