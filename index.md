@@ -35,6 +35,10 @@ The DigitalRain program simulates a digital rain effect, where characters fall f
   
   ![image](https://github.com/user-attachments/assets/037b4f5c-e715-4a0b-89c8-14faa3311cb1)
 
+- To control the speed at which the characters are falling, a delay is added using std::this_thread::sleep_for() function. The program uses this delay to make the DigitalRain effect more visually appealing, creating a smoother animation rather than having characters falling too fast or instantly. The delay duration is expressed in milliseconds (1 second = 1000 milliseconds)
+
+  ![image](https://github.com/user-attachments/assets/33eb4ad1-59c2-4dbb-911e-b8ed6137303c)
+
 
 
 
