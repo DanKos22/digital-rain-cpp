@@ -15,6 +15,14 @@ The code in the project is structured using Object-Oriented Programming.
 The program is structured using classes and objects. I made a class called DigitalRain and the project is built around this class. This class contains the functions responsible for handling the movement of the characters (falling effect), controlling cursor positions, and changing text colors in the console.
 The program uses vectors to store data such as the current positions (xPositions and yPositions) of characters and also for the number of characters.
 
+##Algorithm
+
+
+##Problem-Solving
+
+
+##Modern C++ Insight & Refelction
+
 Font can be *Italic* or **Bold**.
 
 Code can be highlighted with 'backticks'.
