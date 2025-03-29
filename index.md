@@ -25,7 +25,8 @@ The project is split between five files, each with a specific responsibility. Th
 
 The DigitalRain program simulates a digital rain effect, where characters fall from the top of the screen to the bottom. 
 - In this step, the program initializes the necessary data structures for the falling characters:
-  ![image](https://github.com/user-attachments/assets/61b7ee0c-e824-4153-9a4b-567600e62a25)
+  ![image](https://github.com/user-attachments/assets/350997f5-d9c9-4e5d-ba5c-510500fda591)
+
 
 - To move the cursor to the correct position, the program uses the GotoXY() function, which uses Windows API functions to move the cursor to the specified coordinates:
   
@@ -42,7 +43,9 @@ The DigitalRain program simulates a digital rain effect, where characters fall f
 - To move the characters down, the vertical positions of the characters are updated to make them fall down on the screen. All the characters fall down simultaneously.  When the characters reach the bottom, the screen is cleared and they are reset to the top. This logic creates the looping digital rain effect where characters continually fall from top to bottom:
 
   ![image](https://github.com/user-attachments/assets/629614a9-ecb5-4b70-ab26-2d59826e5bda)
+
  
+
 
 
 
