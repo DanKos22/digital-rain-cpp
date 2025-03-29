@@ -47,7 +47,6 @@ The DigitalRain program simulates a digital rain effect, where characters fall f
   ![image](https://github.com/user-attachments/assets/33eb4ad1-59c2-4dbb-911e-b8ed6137303c)
 
 - Each character moves down at its own speed. This loop first checks if a character has reached the bottom. If not, it increments the time counter to control movement speed. When the counter reaches the character's speed threshold, the character moves down by one position. If a character reaches the bottom (y = 30), it is marked as "at the bottom" and locked in place.
-
 While working on this section of the code, I wanted each character to fall at a different speed, but I wasn't sure at first on how to implement it. To solve this, I used ChatGPT to help me structure the logic. The solution involves using a timeCounters array to track when each character should move down based on its assigned speed. Every frame, timeCounters[i] increases, and once it reaches the character's assigned speed (speeds[i]), the character moves down by one position. Then the timer resets, and the process repeats. This ensures that some characters fall faster than others, creating a more dynamic visual effect.
 
   ![image](https://github.com/user-attachments/assets/8067a722-8cd7-435f-b038-cc382686bfc4)
