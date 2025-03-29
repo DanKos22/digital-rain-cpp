@@ -12,7 +12,7 @@ The code in the project is structured using Object-Oriented Programming.
 
 ## Design & Test
 
-The program is structured using classes and objects. I made a class called DigitalRain and the project is built around this class. This class contains the functions responsible for handling the movement of the characters (falling effect), controlling cursor positions, and changing text colors in the console. The program uses vectors to store data such as the current positions (xPositions and yPositions) of characters and also for the number of characters.
+The program is structured using a class-based design. I made a class called DigitalRain and the project is built around this class. This class contains the functions responsible for handling the movement of the characters (falling effect), controlling cursor positions, and changing text colors in the console. The program uses vectors to store data such as the current positions (xPositions and yPositions) of characters and also for the number of characters. Each character has a random speed and a random character assigned to it. The random speeds range between 2 and 6, ensuring that each character falls at a different rate which creates the dynamic visual effect. the characters are randomly selected from a range of ASCII codes, so each "raindrop" can be a different symbol. The program uses the rand() function to generate random speeds and characters.
 
 The project is split between five files, each with a specific responsibility. This is done to enhance readability, maintainability, and testing. The five files are: main.cpp, DigitalRain.cpp, DigitalTest.cpp, Digitaltest.h, and DigitalRain.h. 
 - main.cpp is the entry point for the program, where the main() function is located. It initializes the DigitalRain object and calls the necessary functions to begin the character fall.
@@ -23,13 +23,13 @@ The project is split between five files, each with a specific responsibility. Th
 
 ## Algorithm
 
-The DigitalRain program simulates a digital rain effect, where characters fall from the top of the screen to the bottom. 
+The DigitalRain program simulates a digital rain effect, where characters fall from the top of the screen to the bottom and reset once all characters have reached the bottom. 
 - In this step, the program initializes the necessary data structures to manage the falling characters. It defines a set number of characters and creates several vectors to store important properties for each character.
   ![image](https://github.com/user-attachments/assets/ea9c7292-5bd9-4b01-8ed2-0810645a98c3)
 
 
 
-- To move the cursor to the correct position, the program uses the GotoXY() function, which uses Windows API functions to move the cursor to the specified coordinates.
+- This function, GotoXY was provided by my lecturer and it is used to move the console cursor to a specific position on the screen. The function utilizes Windows API functions to move the cursor to the specified coordinates.
   
   ![image](https://github.com/user-attachments/assets/d4e5e9c0-edb2-485f-b2cb-8b322ab5c58a)
 
@@ -56,7 +56,8 @@ The DigitalRain program simulates a digital rain effect, where characters fall f
 
   ![image](https://github.com/user-attachments/assets/72e66b17-65d6-4ee7-b8ae-075152662eaa)
 
-- If all characters have reached the bottom, the screen is cleared (system("cls")), and their positions and attributes are reset.
+- If all characters have reached the bottom, the screen is cleared (system("cls")), and their positions and attributes are reset. I found the system("cls") on StackOverflow.
+- During the project, I encountered some issues with the program not properly resetting when all characters reached the bottom of the screen. To solve this, I used ChatGPT to help me to figure out how to accurately track when each character had reached the bottom. ChatGPT provided me with a for loop to count the number of characters at the bottom and suggested using a flag (charIsAtBottom[i] = true;) to indicate when a character had reached the bottom. With this solution, I was able to ensure the program properly resets once all the characters have fallen.
 
   ![image](https://github.com/user-attachments/assets/99422150-d555-4dca-8896-53498f0cc163)
 
