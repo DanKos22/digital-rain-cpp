@@ -46,6 +46,16 @@ The DigitalRain program simulates a digital rain effect, where characters fall f
 
   ![image](https://github.com/user-attachments/assets/8067a722-8cd7-435f-b038-cc382686bfc4)
 
+- When the charIsAtBottom is set, this for loop will then count how many characters have reached the bottom.
+
+  ![image](https://github.com/user-attachments/assets/72e66b17-65d6-4ee7-b8ae-075152662eaa)
+
+- If all characters have reached the bottom, the screen is cleared (system("cls")), and their positions and attributes are reset.
+
+  ![image](https://github.com/user-attachments/assets/99422150-d555-4dca-8896-53498f0cc163)
+
+
+
 
  
 
