@@ -33,9 +33,10 @@ The DigitalRain program simulates a digital rain effect, where characters fall f
   ![image](https://github.com/user-attachments/assets/d4e5e9c0-edb2-485f-b2cb-8b322ab5c58a)
 
 
-- The program then prints each character at its current position using a loop that iterates over all characters:
+- This loop iterates over all the characters, printing each one at its current position only if it has not yet reached the bottom. The allCharsAtBottom counter keeps track of how many characters have reached the bottom.
   
-  ![image](https://github.com/user-attachments/assets/037b4f5c-e715-4a0b-89c8-14faa3311cb1)
+  ![image](https://github.com/user-attachments/assets/99e3d752-7c8b-422d-9dc3-5b8227ddad6a)
+
 
 - To control the speed at which the characters are falling, a delay is added using std::this_thread::sleep_for() function. The program uses this delay to make the DigitalRain effect more visually appealing, creating a smoother animation rather than having characters falling too fast or instantly. The delay duration is expressed in milliseconds (1 second = 1000 milliseconds):
 
