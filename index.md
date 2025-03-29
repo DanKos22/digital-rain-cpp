@@ -19,17 +19,17 @@ The project is split between five files, each with a specific responsibility. Th
 - DigitalRain.cpp is responsible for implementing the core functionality of the digital rain effect. It defines the constructors for the DigitalRain class and the file contains the implementation of the key functions like moving the console cursor and printing the falling characters.
 - DigitalTest.cpp is responsible for implementing test functions that ensures that the DigitalRain class behaves as expected. It contains unit tests that verify the correctness of functions like GotoXY() and DrawCharacters(). These tests help to ensure that the program functions correctly.
 - DigitalRain.h file defines the interface for the DigitalRain class. The DigitalRain class is declared here, serving as a blueprint for the implementation in DigitalRain.cpp. It declares the constructors that are responsible for initializing the class and the file declares the public functions that the class will expose to the rest of the program like GotoXY() and DrawCharacters().
-- DigitalTest.h declares the unit test cases used in DigitalTest.cpp. The purpose of these unit tests is to test correctness and functionality of the DigitalRain class
+- DigitalTest.h declares the unit test cases used in DigitalTest.cpp. The purpose of these unit tests is to test correctness and functionality of the DigitalRain class.
 
 ## Algorithm
 
 The DigitalRain program simulates a digital rain effect, where characters fall from the top of the screen to the bottom. 
-- In this step, the program initializes the necessary data structures to manage the falling characters. It defines a set number of characters and creates several vectors to store important properties for each character:
+- In this step, the program initializes the necessary data structures to manage the falling characters. It defines a set number of characters and creates several vectors to store important properties for each character.
   ![image](https://github.com/user-attachments/assets/ea9c7292-5bd9-4b01-8ed2-0810645a98c3)
 
 
 
-- To move the cursor to the correct position, the program uses the GotoXY() function, which uses Windows API functions to move the cursor to the specified coordinates:
+- To move the cursor to the correct position, the program uses the GotoXY() function, which uses Windows API functions to move the cursor to the specified coordinates.
   
   ![image](https://github.com/user-attachments/assets/d4e5e9c0-edb2-485f-b2cb-8b322ab5c58a)
 
@@ -37,6 +37,9 @@ The DigitalRain program simulates a digital rain effect, where characters fall f
 - This loop iterates over all the characters, printing each one at its current position only if it has not yet reached the bottom. The allCharsAtBottom counter keeps track of how many characters have reached the bottom.
   
   ![image](https://github.com/user-attachments/assets/99e3d752-7c8b-422d-9dc3-5b8227ddad6a)
+
+- Here, the program initializes the starting positions and attributes for the falling characters. It seeds the random number generator to ensure different outputs on each run, each character will be five spaces apart horizontally, and all characters will start falling at the top. The rand() function is used to generate random characters and random falling speeds for each character.
+  ![image](https://github.com/user-attachments/assets/c4a9ebb0-f46c-48b1-a419-7576204f6094)
 
 
 - To control the speed at which the characters are falling, a delay is added using std::this_thread::sleep_for() function. The program uses this delay to make the DigitalRain effect more visually appealing, creating a smoother animation rather than having characters falling too fast or instantly. The delay duration is expressed in milliseconds (1 second = 1000 milliseconds):
