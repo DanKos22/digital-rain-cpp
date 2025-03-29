@@ -24,8 +24,9 @@ The project is split between five files, each with a specific responsibility. Th
 ## Algorithm
 
 The DigitalRain program simulates a digital rain effect, where characters fall from the top of the screen to the bottom. 
-- In this step, the program initializes the necessary data structures for the falling characters:
-  ![image](https://github.com/user-attachments/assets/350997f5-d9c9-4e5d-ba5c-510500fda591)
+- In this step, the program initializes the necessary data structures to manage the falling characters. It defines a set number of characters and creates several vectors to store important properties for each character:
+  ![image](https://github.com/user-attachments/assets/ea9c7292-5bd9-4b01-8ed2-0810645a98c3)
+
 
 
 - To move the cursor to the correct position, the program uses the GotoXY() function, which uses Windows API functions to move the cursor to the specified coordinates:
