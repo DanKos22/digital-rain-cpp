@@ -68,27 +68,14 @@ The DigitalRain program simulates a digital rain effect, where characters fall f
 
 
 
-
- 
-
-
-
-
-
-
-
-
 ## Reflection
 
 Working on this Digital Rain project allowed me to deepen my understanding of how to structure C++ code properly and how to divide the code between files for better organization and maintainability. I learned how to implement constructors effectively and gained a deeper appreciation for the importance of header guards in preventing multiple inclusions of the same header file. Overall, this project provided a great opportunity to enhance my knowledge of object-oriented programming in C++.
 
-Throughout this project, I became more comfortable working with vectors in C++. I learned how to use them to store and manage dynamic data, such as tracking the positions, speeds, and states of falling characters. Before this project, I didn't quite understand their advantages, but this project help me to realize that they are similar to arrays while offering greater flexibility and ease of management. 
+Throughout this project, I became more comfortable working with vectors in C++. I learned how to use them to store and manage dynamic data, such as tracking the positions, speeds, and states of falling characters. Before this project, I didn't quite understand their advantages, but I realized that they function similarly to arrays while offering greater flexibility and ease of management. 
 
-I was particularly excited to build this Digital Rain project because I was always fascinated by the iconic look of the falling code in the Matrix movies. As a fan of the first movie, recreating the digital rain effect in C++ made the project especially engaging. Seeing the characters cascade down the screen was a rewarding experience. 
+I was particularly excited to build this Digital Rain project because I have always been fascinated by the iconic look of the falling code in the Matrix movies. As a fan of the first movie, recreating the digital rain effect in C++ made the project especially engaging. Seeing the characters cascade down the screen was a rewarding experience. 
 
-Font can be *Italic* or **Bold**.
-
-Code can be highlighted with 'backticks'.
 
 Hyperlinks look like this: [GitHub Help](https://help.github.com/).
 
