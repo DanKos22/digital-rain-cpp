@@ -24,7 +24,7 @@ The project is split between five files, each with a specific responsibility. Th
 ## Algorithm
 
 The DigitalRain program simulates a digital rain effect, where characters fall from the top of the screen to the bottom and reset once all characters have reached the bottom. 
-- In this step, the program initializes the necessary data structures to manage the falling characters. It defines a set number of characters and creates several vectors to store important properties for each character.
+- In this step, the program initializes the necessary data structures to manage the falling characters. It defines a set number of characters and creates several vectors to store important properties for each character. This approach was based on concepts covered in the lecture slides and our previous labs, which provided guidance on structuring data using vectors.
   ![image](https://github.com/user-attachments/assets/ea9c7292-5bd9-4b01-8ed2-0810645a98c3)
 
 
@@ -38,7 +38,7 @@ The DigitalRain program simulates a digital rain effect, where characters fall f
   
   ![image](https://github.com/user-attachments/assets/99e3d752-7c8b-422d-9dc3-5b8227ddad6a)
 
-- Here, the program initializes the starting positions and attributes for the falling characters. It seeds the random number generator to ensure different outputs on each run, each character will be five spaces apart horizontally, and all characters will start falling at the top. The rand() function is used to generate random characters and random falling speeds for each character.
+- Here, the program initializes the starting positions and attributes for the falling characters. It seeds the random number generator to ensure different outputs on each run, each character will be five spaces apart horizontally, and all characters will start falling at the top. The rand() function is used to generate random characters and random falling speeds for each character. To better understand how to implement both the random character selection and the varying falling speeds, I used ChatGPT for guidance and also referenced cppreference.com to understand the rand() function.
   ![image](https://github.com/user-attachments/assets/c4a9ebb0-f46c-48b1-a419-7576204f6094)
 
 
