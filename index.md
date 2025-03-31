@@ -57,7 +57,7 @@ The DigitalRain program simulates a digital rain effect, where characters fall f
 
   ![image](https://github.com/user-attachments/assets/72e66b17-65d6-4ee7-b8ae-075152662eaa)
 
-- If all characters have reached the bottom, the screen is cleared (system("cls")), and their positions and attributes are reset. I found the system("cls") on StackOverflow.
+- If all characters have reached the bottom, the screen is cleared (system("cls")), and their positions and attributes are reset. I found the system("cls") on StackOverflow https://stackoverflow.com/questions/74446197/c-how-does-if-systemcls-systemclear-work.
 - During the project, I encountered some issues with the program not properly resetting when all characters reached the bottom of the screen. To solve this, I used ChatGPT to help me to figure out how to accurately track when each character had reached the bottom. ChatGPT provided me with a for loop to count the number of characters at the bottom and suggested using a flag (charIsAtBottom[i] = true;) to indicate when a character had reached the bottom. With this solution, I was able to ensure the program properly resets once all the characters have fallen.
 
   ![image](https://github.com/user-attachments/assets/99422150-d555-4dca-8896-53498f0cc163)
