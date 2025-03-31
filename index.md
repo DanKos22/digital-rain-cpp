@@ -74,6 +74,8 @@ Working on this Digital Rain project allowed me to deepen my understanding of ho
 
 Throughout this project, I became more comfortable working with vectors in C++. I learned how to use them to store and manage dynamic data, such as tracking the positions, speeds, and states of falling characters. Before this project, I didn't quite understand their advantages, but I realized that they function similarly to arrays while offering greater flexibility and ease of management. 
 
+Challenges faced during this project included figuring out how to print different characters falling at different speeds. To achieve the random speeds and characters, I utilized the rand() function. Another significant challenge was ensuring the characters reset correctly after reaching the bottom of the screen, which I solved using a flag.  For problem-solving, I relied on ChatGPT, lecture slides, and previous labs, all of which helped me throughout the project.
+
 I was particularly excited to build this Digital Rain project because I have always been fascinated by the iconic look of the falling code in the Matrix movies. As a fan of the first movie, recreating the digital rain effect in C++ made the project especially engaging. Seeing the characters cascade down the screen was a rewarding experience. 
 
 
