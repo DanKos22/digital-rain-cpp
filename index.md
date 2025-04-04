@@ -68,6 +68,8 @@ The DigitalRain program simulates a digital rain effect, where characters fall f
   
   ![image](https://github.com/user-attachments/assets/1a116b4e-17db-49b4-a02a-6017abb167af)
 
+  ![Digital Rain in action](https://github.com/DanKos22/digital-rain-cpp/blob/main/docs/assets/images/Recording%20%2353.gif)
+
 
 
 
