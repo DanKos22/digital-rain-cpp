@@ -80,13 +80,13 @@ Challenges faced during this project included figuring out how to print differen
 I was particularly excited to build this Digital Rain project because I have always been fascinated by the iconic look of the falling code in the Matrix movies. As a fan of the first movie, recreating the digital rain effect in C++ made the project especially engaging. Seeing the characters cascade down the screen was a rewarding experience. 
 
 
-Hyperlinks look like this: [GitHub Help](https://help.github.com/).
+## References
 
-A bullet list:
+- https://en.cppreference.com/w/
+- https://chatgpt.com/
+- https://www.w3schools.com/cpp/cpp_oop.asp
 
-- vectors
-- algorithms
-- iterators
+
 
 You can add an image that has been uploaded to the repository in a /docs/assets/images folder.
 
