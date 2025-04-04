@@ -10,6 +10,8 @@ This project ia a modern C++ console application that simulates the digital rain
 The program generates a visually dynamic stream of falling characters. It utilizes windows console API functions for cursor manipulations and text coloring.
 The code in the project is structured using Object-Oriented Programming.
 
+About the author: My name is Dan Koskiranta and I am final-year BEng (Honours) student in Software & Electronic Engineering with an interest in developing my skills in lower-level languages like C++.
+
 ## Design & Test
 
 The program is structured using a class-based design. I made a class called DigitalRain and the project is built around this class. This class contains the functions responsible for handling the movement of the characters (falling effect), controlling cursor positions, and changing text colors in the console. The program uses vectors to store data such as the current positions (xPositions and yPositions) of characters and also for the number of characters. Each character has a random speed and a random character assigned to it. The random speeds range between 2 and 6, ensuring that each character falls at a different rate which creates the dynamic visual effect. the characters are randomly selected from a range of ASCII codes, so each "raindrop" can be a different symbol. The program uses the rand() function to generate random speeds and characters.
