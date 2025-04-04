@@ -66,7 +66,7 @@ The DigitalRain program simulates a digital rain effect, where characters fall f
 
 - Here is the output of the program, showing the falling characters with different speeds and creating the dynamic visual effect.
 
-  ![image](https://raw.githubusercontent.com/DanKos22/digital-rain-cpp/main/docs/assets/images/Recording%20%2353.gif)
+  ![image](https://github.com/DanKos22/digital-rain-cpp/blob/main/docs/assets/images/Recording%20%2353.gif)
 
 
 
