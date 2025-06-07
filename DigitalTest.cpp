@@ -43,8 +43,8 @@ void TestOneArgConstructor() {
 void TestCopyCstr() {
 	std::cout << "Test Copy Constructor" << std::endl;
 
-	DigitalRain rain1(0x0002);				//Create an object with green color
-	DigitalRain rain2(rain1);				//Create a new object by copying rain1 using the copy constructor
+	DigitalRain rain1(0x0002);			//Create an object with green color
+	DigitalRain rain2(rain1);			//Create a new object by copying rain1 using the copy constructor
 	std::cout << rain1 << rain2;			//Print both objects
 }
 
@@ -53,7 +53,7 @@ void TestGotoXYInput() {
 	std::cout << "Testing GotoXY function with a valid input..." << std::endl;
 
 	DigitalRain rain;
-	rain.GotoXY(10, 5);			//Move cursor to screen width 10 and screen height 5
+	rain.GotoXY(10, 5);			        //Move cursor to screen width 10 and screen height 5
 
 	std::cout << "GotoXY test passed\n\n" << std::endl;
 }
