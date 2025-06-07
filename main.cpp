@@ -13,7 +13,7 @@ Dan Koskiranta
 #include "DigitalTest.h"		//Test functions
 #include "DigitalRain.h"		//include DigitalRain class
 #include <stdexcept>			// out_of_range
-#include <iostream>				//cerr, endl
+#include <iostream>			//cerr, endl
 
 
 int main() {
@@ -21,7 +21,7 @@ int main() {
 	DigitalRain rain(FOREGROUND_GREEN);				//Instance of DigitalRain class with parameterized constructor (sets the color to green)
 
 	
-	rain.DrawCharacters();							// Call the function to print digital rain
+	rain.DrawCharacters();						// Call the function to print digital rain
 
 
 	//Add an exception
@@ -33,7 +33,7 @@ int main() {
 		std::cerr << std::endl << e.what() << std::endl;
 		return -1;
 	}*/
-	//RunTests();										//Run the unit tests
+	//RunTests();							//Run the unit tests
 
 	return 0;
 }
